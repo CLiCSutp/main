@@ -30,7 +30,7 @@ form {
 
 .dog
 {
-		margin-top: 40%;
+		margin-top: 20%;
 		min-height: 80px;
 		background-color: orange;
 		margin-left: 5%;
@@ -87,4 +87,23 @@ center
 		margin-bottom: 3%;
 	 background-color: white;
 	border: 2px solid black;
+}
+
+.logo img
+{
+	width: 300px;
+	float:right;
+		margin-right: 5%;
+
+		margin-top: 3%;
+		margin-bottom: 3%;
+	 background-color: white;
+	border: 2px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
