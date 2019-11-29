@@ -38,9 +38,12 @@
 <form>
 NAME :
 <form id="contact-form" method="post" action="contact-form-handler.php">
-<input type="text" name="name" class="form-control"required><br><br>
+<input type="text" name="name" class="form-control"
+ placeholder = "Name" required><br><br>
 NRIC NO.:
-<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only" type ="text" name ="nric" class="form-control"required><br><br>
+<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only"
+type ="text" name ="nric"
+placeholder="NRIC" class="form-control"required><br><br>
 
 
 <input type ="submit"  value="submit" formaction="/user-info/"><br><br>
