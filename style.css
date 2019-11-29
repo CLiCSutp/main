@@ -8,18 +8,7 @@ body {
   	background-color: #DADFF0;
 }*/
 
-/*form {
-	min-height: 5px;
-	margin-top: 3%;
-	margin-left: 5%;
-	margin-right: 35%;
-	padding:20px;
-	background-color: yellow;
-	font-size:20px;
-
-		border: 2px solid black;
-}
-*/
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 center
 {
 
@@ -136,4 +125,22 @@ center
   	border: 1px solid #dee0e4;
   	margin-bottom: 20px;
   	padding: 0 15px;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
