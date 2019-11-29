@@ -23,10 +23,6 @@
 				</p>
 
 
-	<!--	<div class="dog">
-		<center>CLICS Clamping System</center>
-	</div>-->
-
 			<div class="logo">
 			<img src="h.jpeg">
 			</div>
@@ -35,18 +31,34 @@
 
 </body>
 
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+
+<body>
+	<div class = "login ">
+		<h2>Login</h2>
+
 <form>
-NAME :
-<form id="contact-form" method="post" action="contact-form-handler.php">
-<input type="text" name="name" class="form-control"
- placeholder = "Name" required><br><br>
-NRIC NO.:
-<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only"
-type ="text" name ="nric"
-placeholder="NRIC" class="form-control"required><br><br>
 
+	<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
 
-<input type ="submit"  value="submit" formaction="/user-info/"><br><br>
+	<form id="contact-form" method="post" action="contact-form-handler.php">
+		<input type="text" name="name" class="form-control"
+ 														placeholder = "Name" required><br><br>
+
+				<label for="NRIC">
+										<i class="fas fa-lock"></i>
+						</label>
+
+		<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only"
+				type ="NRIC" name ="nric" placeholder="NRIC" class="form-control"required><br><br>
+
+<input type ="submit"  value="Submit" formaction="/user-info/"><br><br>
 
 
 </form>
