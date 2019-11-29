@@ -39,8 +39,8 @@
 NAME :
 <form id="contact-form" method="post" action="contact-form-handler.php">
 <input type="text" name="name" class="form-control"required><br><br>
-ID/IC NO.:
-<input type ="text" name ="email" class="form-control"required><br><br>
+NRIC NO.:
+<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only" type ="text" name ="nric" class="form-control"required><br><br>
 
 
 <input type ="submit"  value="submit" formaction="/user-info/"><br><br>
