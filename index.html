@@ -37,26 +37,25 @@
 	<div class = "login ">
 
 	<h2> Clamp Index Number: <br/>
-
-		<input list="clamps" placeholder="Insert Clamp Number" name="clamp" required>
-	  <datalist id="clamps">
+	<form id="user" method="post"  action="clics.php">
+		<input list="clamps" placeholder="Insert Clamp Number" name="clamp" required >
+	  <datalist  id="clamps">
 	    <option value="Clamp 001">
 	    <option value="Clamp 002">
 	    <option value="Clamp 003">
 	    <option value="Clamp 004">
 	    <option value="Clamp 005">
 	  </datalist>
-
 	</h2>
+</form>
 
 
 <form>
-
 	<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
 
-	<form id="contact-form" method="post" action="contact-form-handler.php">
+	<form id="user" method="post" action="clics.php">
 		<input type="text" name="name" class="form-control"
  														placeholder = "Name" required><br><br>
 
@@ -67,11 +66,11 @@
 		<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only"
 				type ="NRIC" name ="nric" placeholder="NRIC" class="form-control"required><br><br>
 
-<input type ="submit"  value="Submit" formaction="/user-info/"><br><br>
+<input type ="submit"  value="Submit" ><br><br>
 </div>
 
 </form>
 
-
+</form>
 
 </html>
