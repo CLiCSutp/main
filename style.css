@@ -36,8 +36,6 @@ center
 .main-nav li a
 {
 	color: black;
-
-
 	padding: 5px 30px;
 	font-family: "Roboto", times-new-roman;
 	font-size: 20px;
@@ -125,32 +123,6 @@ center
   	border: 1px solid #dee0e4;
   	margin-bottom: 20px;
   	padding: 0 15px;
-}
-
-.clamp {
-  	width: 20%;
-		max-width: 300px;
-  	background-color: #ffffff;
-  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-  	margin: 50px auto;
-		position: absolute;
-	  top: 8px;
-	  right: 16px;
-}
-
-.clamp form {
-  	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
-  	padding-top: 20px;
-}
-
-.clamp h2 {
-  	text-align: center;
-  	color: #5b6574;
-  	font-size: 20px;
-  	padding: 20px 0 20px 0;
-  	border-bottom: 1px solid #dee0e4;
 }
 
 @media only screen and (max-width:800px) {
