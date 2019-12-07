@@ -51,7 +51,7 @@
 </form>
 
 
-<form>
+<form id="user" action="/user-info/" method="post" >
 	<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
@@ -61,7 +61,7 @@
 				$nric = $_POST["nric"];
 				?>
 
-	<form id="user" action="https://clicsutp.github.io/user-info/" method="post" >
+	<form   >
 		<input type="text" name="name" class="form-control"
  														placeholder = "Name" required><br><br>
 
@@ -72,7 +72,7 @@
 		<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only"
 				type ="NRIC" name ="nric" placeholder="NRIC" class="form-control"required><br><br>
 
-<input type ="submit" name="submit"  value="Submit"><br><br>
+<input type ="submit" value="Submit"><br><br>
 </div>
 
 </form>
