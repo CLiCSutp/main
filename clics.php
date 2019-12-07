@@ -7,4 +7,3 @@ Your email address is: <?php echo $_POST["nric"]; ?>
 
 </body>
 </html>
-</html>
