@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -37,7 +38,7 @@
 <div class = "login ">
 
 <h2> Clamp Index Number: <br/>
-<form id="user" method="GET"  action="clics.php">
+<form id="user" method="get"  action="clics.php">
 	<input list="clamps" placeholder="Insert Clamp Number" name="clamp" required >
 	<datalist  id="clamps">
 		<option value="Clamp 001">
@@ -50,12 +51,12 @@
 </form>
 
 
-<form  onsubmit="callme()">
+<form id="user" method="get" onsubmit="callme()">
 <label for="username">
 				<i class="fas fa-user"></i>
 			</label>
 
-<form id="user" action="clics.php" method="post">
+<form >
 	<input id="name" type="text" name="name" class="form-control"
 													placeholder = "Name" required><br><br>
 
@@ -63,22 +64,26 @@
 									<i class="fas fa-lock"></i>
 					</label>
 
-	<input id="numbersOnly" pattern="[0-9.]+" title = "Numbers Only"
+	<input id="id" pattern="[0-9.]+" title = "Numbers Only"
 			type ="NRIC" name ="nric" placeholder="NRIC" class="form-control"required><br><br>
+
 
 <input type ="submit"  value="Submit" formaction="/user-info/"><br><br>
 </div>
 
 </form>
 
-<script>
-    function callme(){
-        var name = document.getElementById('name').value;
-        sessionStorage.setItem('userID', name);
-    }
-</script>
-
 </form>
 
+<script>
+		function callme(){
+				var name = document.getElementById('name').value;
+				var id = document.getElementById('id').value;
+				sessionStorage.setItem('username', name);
+				sessionStorage.setItem('userid', id);
+		}
+</script>
+
 </body>
+
 </html>
