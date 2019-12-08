@@ -38,7 +38,7 @@
 <div class = "login ">
 
 <h2> Clamp Index Number: <br/>
-<form id="user" method="GET">
+<form id="user" method="get"  action="clics.php">
 	<input list="clamps" placeholder="Insert Clamp Number" name="clamp" required >
 	<datalist  id="clamps">
 		<option value="Clamp 001">
@@ -51,8 +51,7 @@
 </form>
 
 
-<form id="user" method="GET" onsubmit="callme()">
-
+<form id="user" method="get" onsubmit="callme()">
 <label for="username">
 				<i class="fas fa-user"></i>
 			</label>
