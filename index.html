@@ -51,12 +51,12 @@
 </form>
 
 
-<form>
+<form id="user" method="post" onsubmit="callme()">
 <label for="username">
 				<i class="fas fa-user"></i>
 			</label>
 
-<form id="user" action="clics.php" method="post" onsubmit="callme()">
+<form >
 	<input id="name" type="text" name="name" class="form-control"
 													placeholder = "Name" required><br><br>
 
@@ -72,6 +72,10 @@
 
 </form>
 
+</form>
+
+</body>
+
 <script>
     function callme(){
         var name = document.getElementById('name').value;
@@ -79,7 +83,4 @@
     }
 </script>
 
-</form>
-
-</body>
 </html>
