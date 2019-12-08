@@ -69,10 +69,15 @@
 
 <input type ="submit"  value="Submit" formaction="/user-info/"><br><br>
 </div>
-<script>
-sessionStorage.setItem("name", "string"); 
-</script>
+
 </form>
+
+<script>
+    function callme(){
+        var name = document.getElementById('name').value;
+        sessionStorage.setItem('name', name);
+    }
+</script>
 
 </form>
 
