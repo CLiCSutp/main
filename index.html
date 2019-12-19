@@ -24,8 +24,6 @@
   <div>
     <ul class="nav navbar-nav navbar-right">
       <li class="active"><a href="http://clicsutp.github.io/main">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </div>
@@ -45,11 +43,11 @@
 
 <!-- Login form -->
 <body>
+	<div class="center">
 <div class = "login ">
 
 <h2> Clamp Index Number: <br/>
-<form id="user" method="get" onsubmit="callme()">
-	<!--<input list="clamps" placeholder="Insert Clamp Number" name="clamp" required >-->
+<form  id="user" method="get" onsubmit="callme()">
 	<select  id="clamps">
 		<option selected disabled>Choose one</option>
 		<option value="Clamp 001">Clamp 001</option>
@@ -84,7 +82,7 @@
 
 <input type ="submit"  value="Submit" formaction="/user-info/"><br><br>
 </div>
-
+</div>
 </form>
 
 </form>

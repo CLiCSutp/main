@@ -17,11 +17,10 @@ center
   margin-left: auto;
   margin-right: auto;
 	width: 500px;
-	bottom:0px;
 }
 
 .login {
-	position:relative;
+	position:center;
   	width: 400px;
   	background-color: #ffffff;
   	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
@@ -78,40 +77,20 @@ center
 
 @media only screen and (max-width:800px) {
   /* For tablets:*/
-  .main {
+  .center img,  {
     width: 80%;
     padding: 0;
   }
-  .right {
-    width: 100%;
+ 	{
+    width: 50%;
   }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones:*/
-  .menu, .main, .right {
-    width: 100%;
+  .center img {
+    width: 50%;
   }
-}
-
-#somethingorother {
-  width: 800px ;
-}
-
-@media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
-  #somethingorother {
-    width: 20%;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  #somethingorother {
-    width: 100%x ;
-  }
-}
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
-  #somethingorother {
-    width: 50% ;
-  }
+	.login,.form,.login form input{
+		width:50%;
+	}
 }
