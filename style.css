@@ -3,10 +3,6 @@
 	margin: 0;
 	padding: 0;
 }
-/*
-body {
-  	background-color: #DADFF0;
-}*/
 
 
 center
@@ -25,14 +21,11 @@ center
 }
 
 .login {
-	position:absolute;
+	position:relative;
   	width: 400px;
   	background-color: #ffffff;
   	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   	margin: 100px auto;
-		top: 150px;
-		right:200px;
-		left:200px;
 }
 
 .login h2 {
@@ -107,18 +100,18 @@ center
 @media screen and (max-width: 320px) {
   /* comes into effect for screens less than or equal to 320 pixels */
   #somethingorother {
-    width: 120px ;
+    width: 20%;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
   /* comes into effect for screens between 321 and 480 pixels (inclusive) */
   #somethingorother {
-    width: 320px ;
+    width: 100%x ;
   }
 }
 @media screen and (min-width: 481px) {
   /* comes into effect for screens larger than or equal to 481 pixels */
   #somethingorother {
-    width: 480px ;
+    width: 50% ;
   }
 }
