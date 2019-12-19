@@ -11,59 +11,28 @@ body {
 
 center
 {
-
+	position:relative;
 	color: black;
-	font-size: 70px;
 	text-allign: center;
 		border: 2px solid black;
 }
-
-.main-nav
-{
-		margin-top: 3%;
-	list-style: none;
-		margin-left: 5%;
-		margin-right: 5%;
-}
-
-.main-nav li
-{
-	display: block;
-	 background-color: yellow;
-	border: 2px solid black;
-}
-
-.main-nav li a
-{
-	color: black;
-	padding: 5px 30px;
-	font-family: "Roboto", times-new-roman;
-	font-size: 20px;
-}
-
-
-.main-nav li a:hover
-{
-	border: 7px solid red;
-}
-
-.topnav {
-  background-color: #4863C9;
-  overflow: hidden;
-}
-
 .center img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 	width: 500px;
+	bottom:0px;
 }
 
 .login {
+	position:absolute;
   	width: 400px;
   	background-color: #ffffff;
   	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   	margin: 100px auto;
+		top: 150px;
+		right:200px;
+		left:200px;
 }
 
 .login h2 {
